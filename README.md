@@ -1,3 +1,3 @@
 ## Minimalistic start page
 
-![](https://imgur.com/Ea66ffx)
+![screenshot](https://imgur.com/a/5B6Ccob)
