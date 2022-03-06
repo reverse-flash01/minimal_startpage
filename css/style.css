@@ -1,3 +1,13 @@
+:root{
+	--nord-background:#2e3440;
+	--nord-text-color:#ecf0f1;
+	--nord-h1-color:rgba(255, 250, 240, 0.897);
+	--nord-text-hover-color:#eceff4;
+	--gruvdark-background:#282828;
+	--gruvdark-text-color:#fbf1c7;
+	--gruvdark-h1-color:#ebdbb2;
+	--gruvdark-hover-color:#fe8019;
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +20,7 @@
   body {
     height: 100vh;
     width: 100vw;
-    background-color: #2e3440;
+    background-color: var(--gruvdark-background);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +31,7 @@
     font-size: x-large;
     font-weight: 600;
     margin-bottom: 10px;
-    color: rgba(255, 250, 240, 0.897);
+    color: var(--gruvdark-h1-color);
     text-align: center;
   }
   
@@ -42,7 +52,7 @@
   .links-wrapper div a.mid {
     text-align: center;
     text-decoration: none;
-    color: #ecf0f1;
+    color: var(--gruvdark-text-color);
     opacity: 0.7;
     margin-bottom: 12px;
     font-size: medium;
@@ -50,7 +60,7 @@
   }
 
    .links-wrapper div a.mid:hover{
-    color: #eceff4;
+    color: var(--gruvdark-hover-color);
     opacity: 1;
     cursor: default;
      transition: all 0.3s ease-in-out 0s;
@@ -65,7 +75,7 @@
     height: 1.5px;
     bottom: 0;
     left: 0;
-    background-color: #eceff4;
+    background-color: var(--gruvdark-h1-color);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
